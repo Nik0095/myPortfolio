@@ -6,6 +6,10 @@ import React from "react";
 import ExtraServices from "@/components/ExtraServices";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import TechBenefits from "@/components/TechBenefits";
+
+import FileUp from "@/components/FileUp";
+import { FormContact } from "@/components/FormContact";
 
 const Services = () => {
   return (
@@ -22,6 +26,9 @@ const Services = () => {
           </p>
         </section>
         <ExtraServices />
+        <TechBenefits />
+        <FileUp />
+        <FormContact />
 
         <Footer />
       </div>

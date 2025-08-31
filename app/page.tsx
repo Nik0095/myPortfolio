@@ -11,6 +11,7 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import TechBenefits from "@/components/TechBenefits";
 
 import App from "next/app";
 import ExtraServices from "@/components/ExtraServices";
@@ -23,10 +24,11 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
         <Approach />
+        <TechBenefits />
         <Experience />
         <ExtraServices />
+        <Clients />
         <Footer />
       </div>
     </main>

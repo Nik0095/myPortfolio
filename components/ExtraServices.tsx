@@ -39,15 +39,15 @@ const ExtraServices = () => {
           icon={
             <Settings className="h-4 w-4 text-black dark:text-neutral-400" />
           }
-          title="The best AI code editor ever."
-          description="Yes, it's true. I'm not even kidding. Ask my mom if you don't believe me."
+          title="Creating an AI assistant for your website"
+          description="Integrate a smart virtual assistant that improves user experience, automates support, and engages visitors 24/7"
         />
 
         <GridItem
           area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
           icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-          title="You should buy Aceternity UI Pro"
-          description="It's the best money you'll ever spend"
+          title="Setting up and running Google Ads campaigns"
+          description="I will make your advertising campaign as effective as possible. The goal is to attract traffic, new customers, and maximize return on investment."
         />
 
         <GridItem
@@ -55,15 +55,16 @@ const ExtraServices = () => {
           icon={
             <Sparkles className="h-4 w-4 text-black dark:text-neutral-400" />
           }
-          title="This card is also built by Cursor"
-          description="I'm not even kidding. Ask my mom if you don't believe me."
+          title="Email Marketing Campaigns"
+          description="I will set up effective email campaigns for you that will help you retain customers, remind them about your services, and increase sales."
         />
 
         <GridItem
           area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
           icon={<Search className="h-4 w-4 text-black dark:text-neutral-400" />}
-          title="Coming soon on Aceternity UI"
-          description="I'm writing the code as I record this, no shit."
+          title="Product Data Parsing & Updates"
+          description="I will configure product parsing for your site and ensure constant updating of information - prices, descriptions, availability,
+so that the data always remains up-to-date without your intervention."
         />
       </ul>
     </section>

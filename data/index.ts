@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -25,7 +25,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/bg.png",
     spareImg: "",
   },
   {
@@ -35,7 +35,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "",
+    img: "/bg.png",
     spareImg: "",
   },
   {
@@ -83,26 +83,26 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Service for cars",
+    des: "WordPress site, using elementor, ACF, and custom PHP code to create a unique design and functionality.",
     img: "/katal.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/gsap.svg"],
     link: "/sitewebit.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Website for stand-up shows",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/fatma.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/js.svg"],
     link: "/sitewebit.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Web development studio website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/siteweb.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/woo.svg"],
     link: "/sitewebit.com",
   },
 ];
@@ -143,9 +143,9 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Laravel",
+    // name: "",
     img: "/laravel.svg",
-    nameImg: "/cloudName.svg",
+    // nameImg: "Laravel",
   },
   {
     id: 2,
@@ -155,18 +155,30 @@ export const companies = [
   },
   {
     id: 3,
-    name: "hjc",
-    img: "/hjc.png",
-    nameImg: "/hostName.svg",
+    name: "js",
+    img: "/js.svg",
+    nameImg: "",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/nv-logo.png",
-    nameImg: "/streamName.svg",
+    name: "wp",
+    img: "/wp.svg",
+    nameImg: "",
   },
   {
     id: 5,
+    name: "stream",
+    img: "/woo.svg",
+    nameImg: "/streamName.svg",
+  },
+  {
+    id: 6,
+    name: "",
+    img: "/re.svg",
+    nameImg: "",
+  },
+  {
+    id: 7,
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
@@ -183,7 +195,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Advertising settings Google ADS",
+    title: "Google ADS account setup",
     desc: "I will launch an advertising account, connect analytics to track effectiveness.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
