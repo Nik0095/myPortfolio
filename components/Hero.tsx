@@ -72,7 +72,7 @@ const Hero = () => {
             using WordPress, WooCommerce, React, Next.js, Laravel, and Vite.
           </div>
 
-          <a href="#about">
+          <a href="/projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

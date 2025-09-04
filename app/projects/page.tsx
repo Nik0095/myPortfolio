@@ -6,12 +6,14 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
-
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { PointerHighlight } from "@/components/ui/PointerHighlight";
-import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import Clients from "@/components/Clients";
+import ExtraServices from "@/components/ExtraServices";
+
+
+
 
 // 👉 Тип для шаблону
 type ProjectTemplate = {
@@ -28,7 +30,7 @@ const cardVariants = {
   onscreen: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0.2, duration: 0.8 } },
 };
 
-export default function TemplatesPage() {
+export default function ProjectsPage() {
   const [templates, setTemplates] = useState<ProjectTemplate[]>([]);
 
   useEffect(() => {
@@ -51,14 +53,14 @@ export default function TemplatesPage() {
 
           {/* Підзаголовок з PointerHighlight */}
           <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl mx-auto mt-8">
-            I prefer to create solutions that take into account the characteristics of the target audience, making each site
+            I prefer to create solutions that take into account the characteristics of the target audience, making
             <PointerHighlight
               rectangleClassName="bg-[#7f6bc5] dark:bg-[#6a56b0] border-[#5a4798] dark:border-[#4a3b80] leading-loose"
               pointerClassName="text-yellow-500 h-3 w-3"
               containerClassName="inline-block mr-1"
             >
               <span className="relative z-10">
-                 understandable, attractive and useful for visitors.
+                 each site understandable, attractive and useful for visitors.
               </span>
             </PointerHighlight>
           </div>
@@ -99,8 +101,8 @@ export default function TemplatesPage() {
               </motion.div>
             ))}
           </div>
-
-          <Clients />
+          <ExtraServices />
+                    <Clients />
           <Footer />
         </div>
       </main>

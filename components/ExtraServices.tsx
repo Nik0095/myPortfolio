@@ -1,4 +1,5 @@
-import { Box, Lock, Search, Settings, Sparkles } from "lucide-react";
+import {  MailPlus, Search, Settings, } from "lucide-react";
+import { SiGoogleads, SiGoogleanalytics, } from "react-icons/si";
 import { GlowingEffect } from "@/components/ui/GlowingEffect";
 import { PointerHighlight } from "@/components/ui/PointerHighlight";
 
@@ -8,19 +9,19 @@ const ExtraServices = () => {
       {/* Заголовок */}
       <h2 className="heading text-center">
         All customers get a <span className="text-purple">30% discount</span> on
-        additional services.
+        additional <span className="text-purple">extra-services</span>.
       </h2>
 
       {/* Пояснення під заголовком */}
       <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl mx-auto mt-8">
+        Thanks to a comprehensive approach,
         <PointerHighlight
           rectangleClassName="bg-[#7f6bc5] dark:bg-[#6a56b0] border-[#5a4798] dark:border-[#4a3b80] leading-loose"
           pointerClassName="text-yellow-500 h-3 w-3"
           containerClassName="inline-block mr-1"
         >
           <span className="relative z-10">
-            Thanks to a comprehensive approach, you get maximum results in a
-            short time.
+            you get maximum results in a short time.
           </span>
         </PointerHighlight>
       </div>
@@ -29,7 +30,7 @@ const ExtraServices = () => {
       <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2 mt-12">
         <GridItem
           area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
-          icon={<Box className="h-4 w-4 text-black dark:text-neutral-400" />}
+          icon={<SiGoogleanalytics className="h-4 w-4 text-black dark:text-neutral-400" />}
           title="SEO optimization of your site"
           description="Site promotion in search engines (Google, Bing, Yahoo) to attract"
         />
@@ -45,7 +46,7 @@ const ExtraServices = () => {
 
         <GridItem
           area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
-          icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
+          icon={<SiGoogleads className="h-4 w-4 text-black dark:text-neutral-400" />}
           title="Setting up and running Google Ads campaigns"
           description="I will make your advertising campaign as effective as possible. The goal is to attract traffic, new customers, and maximize return on investment."
         />
@@ -53,7 +54,7 @@ const ExtraServices = () => {
         <GridItem
           area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
           icon={
-            <Sparkles className="h-4 w-4 text-black dark:text-neutral-400" />
+            <MailPlus className="h-4 w-4 text-black dark:text-neutral-400" />
           }
           title="Email Marketing Campaigns"
           description="I will set up effective email campaigns for you that will help you retain customers, remind them about your services, and increase sales."

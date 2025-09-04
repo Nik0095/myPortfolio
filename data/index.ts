@@ -1,10 +1,10 @@
 export const navItems = [
-  { name: "About", link: "/#about" },
-  { name: "Projects", link: "/#projects" },
-  { name: "Testimonials", link: "/#testimonials" },
+  { name: "Home", link: "/" },
+  { name: "Projects", link: "/projects" },
   { name: "Contact", link: "#contact" },
   { name: "Services", link: "/services" },
-  { name: "Themplates", link: "/themplates" },
+  { name: "Templates", link: "/templates" },
+  { name: "About", link: "/about" },
 ];
 
 export const gridItems = [
@@ -99,44 +99,42 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Web development studio website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/siteweb.webp",
-    iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/woo.svg"],
-    link: "/sitewebit.com",
+    title: "Tattoo parlor website/",
+    des: "WordPress site with custom pages. Custom service sign-up plugin implemented..",
+    img: "/tattoo.site.webp",
+    iconLists: ["/wp.svg", "/elem.svg", "/acf.svg"],
+    link: "https://tattoositewebit.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Viacheslav was a smooth experience. He built our corporate website from scratch, paying attention to design and functionality that represent our brand well. Communication was easy, every request was handled quickly, and the final result exceeded expectations. Highly recommend him as a reliable partner.",
+    name: "Anna Kovalenko",
+    title: "Commerce director TerraClean",
+    img: "/profile.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "It was convenient to work with Viacheslav. Our project is an online store with more than 2000 products, which simultaneously acts as a corporate website. He quickly understood our needs, set up automatic price updates and ensured stable operation of the resource. He is always in touch, attentive to details. We are satisfied with the cooperation.",
+    name: "Mykhailo Udovik",
+    title: "Executive Director of DKM-Group",
+    img: "/profile.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Viacheslav helped us launch a service-based website for our company. He made the booking system simple for clients and convenient for us to manage. Always responsive, proactive with solutions, and very detail-oriented. The site works perfectly and our customers love the usability.",
+    name: "Olha Melnyk",
+    title: "Operations Director,",
+    img: "/profile.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We collaborated with Viacheslav not only on our website but also on Google Ads campaign management. He optimized our ads, improved conversions, and kept everything transparent with regular reports. His support is reliable, and we felt that he genuinely cared about our business growth. Very satisfied with the results.",
+    name: "Serhii Bondar",
+    title: "Marketing Lead, GreenLine Logistics",
+    img: "/profile.svg",
   },
 ];
 
@@ -221,18 +219,15 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",
   },
-  {
-    id: 4,
-    img: "/insta.svg",
-  },
+  // {
+  //   id: 4,
+  //   img: "/phone.svg",
+  // },
   {
     id: 5,
     img: "/viber.svg",
@@ -244,10 +239,5 @@ export const socialMedia = [
   {
     id: 7,
     img: "/wha.svg",
-  },
-
-  {
-    id: 8,
-    img: "/face.svg",
   },
 ];
