@@ -19,7 +19,7 @@ const page = () => {
         </h1>
         <FloatingNav navItems={navItems} />
         <About />
-        <TechStack />
+        
         <Footer />
       </div>
     </main>
