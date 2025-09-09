@@ -15,8 +15,8 @@ export function About() {
       description: (
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <h4 className="font-semibold mb-2">What I do</h4>
-            <ul className="list-disc list-inside text-sm space-y-1 py-5">
+            <h4 className="font-semibold mb-2 text-xl "><span className="text-purple">What I do</span></h4>
+            <ul className="list-disc list-inside text-base space-y-1 py-5">
               <li>Development of custom WordPress themes</li>
               <li>Creating and configuring plugins</li>
               <li>Performance optimization</li>
@@ -26,7 +26,8 @@ export function About() {
             </ul>
           </div>
           <div>
-            <img src="/b5.svg" alt="Description" className="ml-[1.5rem]" />
+            <img src="/b5.svg" alt="Description" className="ml-[1.5rem] absolute right-0 bottom-[-20] w-80 md:w-[20rem] lg:w-[35rem]" />
+
           </div>
         </div>
       ),
@@ -46,16 +47,16 @@ export function About() {
       description: (
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <h4 className="font-semibold mb-2">Front</h4>
-            <ul className="list-disc list-inside text-sm space-y-1">
+            <h4 className="font-semibold mb-2 text-xl"><span className="text-purple">Front</span></h4>
+            <ul className="list-disc list-inside text-base space-y-1">
               <li>React / Next.js</li>
               <li>TailwindCSS</li>
               <li>Framer Motion</li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-2">Backend</h4>
-            <ul className="list-disc list-inside text-sm space-y-1 mr-1">
+            <h4 className="font-semibold mb-2 text-xl"><span className="text-purple">Backend</span></h4>
+            <ul className="list-disc list-inside text-base space-y-1 mr-1">
               <li>Node.js</li>
               <li>Laravel</li>
               <li>WordPress</li>
@@ -69,7 +70,7 @@ export function About() {
     {
       title: "Contact Me",
       description: (
-        <div className="relative z-10 p-6">
+        <div className="relative z-10 p-6 text-base">
           {/* <h3 className="text-xl font-bold mb-2">Contact Me</h3> */}
           <p>
             If you have any questions or would like to discuss a project, feel
@@ -86,11 +87,13 @@ export function About() {
     <div>
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 py-32">
          <section className="bg-black-100 about relative z-10 w-full  px-5 sm:px-10">
-       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <div className="flex justify-center relative my-5 z-10"> 
+       <div className="flex justify-center max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex-col items-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Next-Level Websites with WordPress & Full-Stack Tech
           </p>
           </div>
+      </div>
           
 
       <h1 className="heading text-center pt-8 leading-loose">
