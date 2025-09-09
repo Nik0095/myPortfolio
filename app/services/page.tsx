@@ -13,10 +13,10 @@ import { FormContact } from "@/components/FormContact";
 
 const Services = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 py-8 min-h-screen">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <section id="extra-services" className="py-20 text-center">
+        {/* <section id="extra-services" className="py-20 text-center">
           <h2 className="text-3xl font-bold mb-4">
             Преміальні додаткові послуги зі знижкою 30%
           </h2>
@@ -24,11 +24,11 @@ const Services = () => {
             Для моїх клієнтів — SEO, Google Ads та контекстна реклама за
             спеціальною ціною.
           </p>
-        </section>
+        </section> */}
         <ExtraServices />
         <TechBenefits />
-        <FileUp />
-        <FormContact />
+        {/* <FileUp /> */}
+        {/* <FormContact /> */}
 
         <Footer />
       </div>

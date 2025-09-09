@@ -15,6 +15,7 @@ import TechBenefits from "@/components/TechBenefits";
 
 import App from "next/app";
 import ExtraServices from "@/components/ExtraServices";
+import TechStack from "@/components/TechStack";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
         <Experience />
         <ExtraServices />
         <Clients />
+        <TechStack />
         <Footer />
       </div>
     </main>

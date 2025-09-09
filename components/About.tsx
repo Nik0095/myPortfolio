@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/BentoGridAbout";
 import { BackgroundGradientAnimation } from "@/components/ui/GradientBg";
 import MagicButton from "@/components/MagicButton";
+import { PointerHighlight } from "@/components/ui/PointerHighlight";
 
 export function About() {
   const aboutItems = [
@@ -31,7 +32,8 @@ export function About() {
       ),
       icon: <img src="/wp.svg" alt="WordPress" className="h-10 w-10" />,
       className:
-        "lg:col-span-2 md:col-span-3 md:row-span-2 bg-[url('/bg.png')] bg-center bg-cover text-white py-10",
+        "lg:col-span-2 md:col-span-3 md:row-span-2 bg-[url('/bg.png')] bg-center bg-cover text-white py-10", 
+        
     },
     {
       title: (
@@ -68,7 +70,7 @@ export function About() {
       title: "Contact Me",
       description: (
         <div className="relative z-10 p-6">
-          <h3 className="text-xl font-bold mb-2">Contact Me</h3>
+          {/* <h3 className="text-xl font-bold mb-2">Contact Me</h3> */}
           <p>
             If you have any questions or would like to discuss a project, feel
             free to contact me.
@@ -81,8 +83,23 @@ export function About() {
   ];
 
   return (
-    <section className="about relative z-10">
-      <BentoGridAbout className="py-20 gap-8 md:grid-cols-3 lg:grid-cols-3 max-w-7xl mx-auto">
+    <div>
+      <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 py-32">
+         <section className="bg-black-100 about relative z-10 w-full  px-5 sm:px-10">
+       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            Next-Level Websites with WordPress & Full-Stack Tech
+          </p>
+          </div>
+          
+
+      <h1 className="heading text-center pt-8 leading-loose">
+        <span className="text-purple">Hi, I'm Viacheslav,</span><br /> my priority is creating fast, scalable, and modern web solutions.
+      </h1>
+
+      {/* Пояснення під заголовком */}
+     
+      <BentoGridAbout className="pt-20 gap-8 md:grid-cols-3 lg:grid-cols-3 max-w-7xl mx-auto">
         {aboutItems.map((item, i) => (
           <BentoGridAboutItem key={i} className={item.className}>
             {item.withGradient && <BackgroundGradientAnimation />}
@@ -96,27 +113,25 @@ export function About() {
               </div>
               {/* тільки для Contact Me показуємо кнопку */}
     {item.withGradient && (
-      <MagicButton
+      <MagicButton 
         title="Send me a message"
         icon={<svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M21 8v13a1 1 0 01-1 1H4a1 1 0 01-1-1V8m18 0l-9-6-9 6m18 0H3"/></svg>}
         position="right"
         handleClick={() => alert("Open contact form")}
         otherClasses="!bg-[#161A31]"
       />
+     
     )}
             </div>
           </BentoGridAboutItem>
         ))}
       </BentoGridAbout>
-
-      <div className="py-10">
-        <h2 className="text-2xl font-bold">Get in Touch</h2>
-        <p className="text-sm dark:text-neutral-400 text-[#C1C2D3-600]">
-          If you have any questions or would like to discuss a project, feel
-          free to contact us.
-        </p>
-      </div>
     </section>
+        </main>
+    </div>
+    
+   
+   
   );
 }
 

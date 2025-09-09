@@ -3,7 +3,7 @@ export const navItems = [
   { name: "Projects", link: "/projects" },
   { name: "Contact", link: "#contact" },
   { name: "Services", link: "/services" },
-  { name: "Templates", link: "/templates" },
+  // { name: "Templates", link: "/templates" },
   { name: "About", link: "/about" },
 ];
 
@@ -138,50 +138,50 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    // name: "",
-    img: "/laravel.svg",
-    // nameImg: "Laravel",
-  },
-  {
-    id: 2,
-    name: "php",
-    img: "/php.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "js",
-    img: "/js.svg",
-    nameImg: "",
-  },
-  {
-    id: 4,
-    name: "wp",
-    img: "/wp.svg",
-    nameImg: "",
-  },
-  {
-    id: 5,
-    name: "stream",
-    img: "/woo.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 6,
-    name: "",
-    img: "/re.svg",
-    nameImg: "",
-  },
-  {
-    id: 7,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+// export const companies = [
+//   {
+//     id: 1,
+//     // name: "",
+//     img: "/laravel.svg",
+//     // nameImg: "Laravel",
+//   },
+//   {
+//     id: 2,
+//     name: "php",
+//     img: "/php.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "js",
+//     img: "/js.svg",
+//     nameImg: "",
+//   },
+//   {
+//     id: 4,
+//     name: "wp",
+//     img: "/wp.svg",
+//     nameImg: "",
+//   },
+//   {
+//     id: 5,
+//     name: "stream",
+//     img: "/woo.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 6,
+//     name: "",
+//     img: "/re.svg",
+//     nameImg: "",
+//   },
+//   {
+//     id: 7,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {
@@ -218,11 +218,13 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Nik0095",
   },
 
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/viacheslav-nykyforov-122bab263/",
   },
   // {
   //   id: 4,
@@ -231,13 +233,16 @@ export const socialMedia = [
   {
     id: 5,
     img: "/viber.svg",
+    link: "viber://chat?number=%+380507258453",
   },
   {
     id: 6,
     img: "/telegram.svg",
+    link: "https://t.me/@dkmdn",
   },
   {
     id: 7,
     img: "/wha.svg",
+    link: "https://wa.me/+380673334455",
   },
 ];

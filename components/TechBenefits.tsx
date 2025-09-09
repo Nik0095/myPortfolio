@@ -168,19 +168,18 @@ const ExtraServices = () => {
   return (
     <section className="w-full py-20">
       <h2 className="heading text-center">
-        <span className="text-purple">Сучасні веб-рішення </span>на провідних
-        технологіях
+        <span className="text-purple">Modern web solutions </span>on leading technologies
       </h2>
 
       <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl mx-auto mt-8">
-        Комплексна веб-розробка на{" "}
+        Comprehensive web development on{" "}
         <PointerHighlight
           rectangleClassName="bg-[#7f6bc5] dark:bg-[#6a56b0] border-[#5a4798] dark:border-[#4a3b80] leading-loose"
           pointerClassName="text-yellow-500 h-3 w-3"
           containerClassName="inline-block mr-1"
         >
           <span className="relative z-10">
-            WordPress, WooCommerce, React, Next.js, Laravel та Vite
+            WordPress, WooCommerce, React, Next.js, Laravel and Vite
           </span>
         </PointerHighlight>
       </div>
@@ -191,19 +190,18 @@ const ExtraServices = () => {
           area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
           icon={<img src="/wp.svg" alt="WordPress" className="h-6 w-6" />}
           title="WordPress Development"
-          description="WordPress дозволяє швидко створювати функціональні веб-сайти завдяки величезній екосистемі тем та плагінів."
+          description="WordPress allows you to quickly create functional websites thanks to a huge ecosystem of themes and plugins."
           popup={
             <>
               <p>
-                Швидка Розробка: Ми створюємо корпоративні сайти, блоги,
-                магазини на WordPress з урахуванням ваших бізнес-потреб.
+                Fast Development: We create corporate websites, blogs, stores on WordPress taking into account your business needs.
               </p>
               <ul>
-                Швидка Розробка
-                <li>- Готові теми та шаблони</li>
-                <li>- Модульна архітектура</li>
-                <li>- SEO Оптимізація</li>
-                <li>- Безпека та Підтримка</li>
+                Fast Development
+                <li>- Ready-made themes and templates</li>
+                <li>- Modular architecture</li>
+                <li>- SEO Optimization</li>
+                <li>- Security and Support</li>
                 <li></li>
               </ul>
             </>
@@ -213,19 +211,18 @@ const ExtraServices = () => {
         <GridItem
           area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
           icon={<img src="/re.svg" alt="React" className="h-6 w-6" />}
-          title="React – сучасні інтерфейси"
-          description="Розробка динамічних, швидких та масштабованих інтерфейсів з використанням React."
+          title="React – modern interfaces"
+          description="Development of dynamic, fast, and scalable interfaces using React."
           popup={
             <>
               <p>
-                React дозволяє робити максимально швидкі та інтерактивні
-                веб-додатки. Чудово підходить для складних UI.
+                React allows you to create extremely fast and interactive web applications. It is great for complex UIs.
               </p>
               <ul>
-                <li>- Компонентний підхід</li>
-                <li>- Висока продуктивність</li>
-                <li>- Легка масштабованість</li>
-                <li>- Інтеграція з API</li>
+                <li>- Component-based architecture</li>
+                <li>- High performance</li>
+                <li>- Easy scalability</li>
+                <li>- API integration</li>
               </ul>
             </>
           }
@@ -234,20 +231,20 @@ const ExtraServices = () => {
         <GridItem
           area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
           icon={<img src="/next.svg" alt="Next.js" className="h-6 w-6" />}
-          title="Next.js – SEO-оптимізовані сайти"
-          description="Створення веб-додатків із серверним рендерингом та високою продуктивністю."
+          title="Next.js – SEO-optimized websites"
+          description="Creation of web applications with server-side rendering and high performance."
           popup={
             <>
               <p>
-                Next.js забезпечує SSR, ISR, чудову оптимізацію для пошуковиків
-                і блискавичне завантаження.
+                Next.js provides SSR, ISR, excellent optimization for search engines
+                and lightning-fast loading.
               </p>
               <ul>
-                <li>- Серверний рендеринг (SSR)</li>
-                <li>- Статична генерація (SSG)</li>
-                <li>- Оптимізація зображень</li>
+                <li>- Server-side rendering (SSR)</li>
+                <li>- Static generation (SSG)</li>
+                <li>- Image optimization</li>
                 <li>- API Routes</li>
-                <li>- Висока продуктивність</li>
+                <li>- High performance</li>
               </ul>
             </>
           }
@@ -256,19 +253,19 @@ const ExtraServices = () => {
         <GridItem
           area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
           icon={<img src="/laravel.svg" alt="Laravel" className="h-6 w-6" />}
-          title="Laravel – потужний бекенд"
-          description="Розробка надійних бекенд-систем, REST API та веб-додатків з використанням Laravel."
+          title="Laravel – powerful backend"
+          description="Development of reliable backend systems, REST APIs, and web applications using Laravel."
           popup={
             <>
               <p>
-                Laravel — популярний PHP-фреймворк для створення надійних,
-                масштабованих та безпечних веб-додатків.
+                Laravel is a popular PHP framework for building reliable,
+                scalable, and secure web applications.
               </p>
               <ul>
-                <li>- Зручний синтаксис</li>
-                <li>- Вбудована аутентифікація</li>
-                <li>- Еloquent ORM для роботи з базами</li>
-                <li>- Потужна система маршрутизації</li>
+                <li>- Elegant syntax</li>
+                <li>- Built-in authentication</li>
+                <li>- Eloquent ORM for database management</li>
+                <li>- Powerful routing system</li>
               </ul>
             </>
           }
@@ -277,20 +274,20 @@ const ExtraServices = () => {
         <GridItem
           area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
           icon={<img src="/vite.svg" alt="Vite" className="h-6 w-6" />}
-          title="Vite – інструмент для фронтенду"
-          description="Використання Vite для швидкої збірки, оптимізації та ефективного процесу фронтенд-розробки."
+          title="Vite – frontend tool"
+          description="Using Vite for fast builds, optimization, and efficient frontend development."
           popup={
             <>
               <p>
-                Vite — сучасний інструмент для швидкої збірки та розробки
-                JavaScript застосунків.
+                Vite is a modern tool for fast builds and development
+                of JavaScript applications.
               </p>
               <ul>
-                <li>- Миттєвий запуск проєкту</li>
-                <li>- Гаряче оновлення модулів (HMR)</li>
-                <li>- Підтримка TypeScript, JSX, Vue, React</li>
-                <li>- Оптимізована збірка з Rollup</li>
-                <li>- Дуже швидкий дев-сервер</li>
+                <li>- Instant project startup</li>
+                <li>- Hot Module Replacement (HMR)</li>
+                <li>- Support for TypeScript, JSX, Vue, React</li>
+                <li>- Optimized build with Rollup</li>
+                <li>- Very fast dev server</li>
               </ul>
             </>
           }
