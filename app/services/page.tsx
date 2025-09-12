@@ -8,12 +8,14 @@ import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import TechBenefits from "@/components/TechBenefits";
 
+
 import FileUp from "@/components/FileUp";
 import { FormContact } from "@/components/FormContact";
 
 const Services = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 py-8 min-h-screen">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto  px-5 py-8 min-h-screen">
+    
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         {/* <section id="extra-services" className="py-20 text-center">

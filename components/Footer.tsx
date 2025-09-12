@@ -24,7 +24,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:nikiforovslava@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -37,7 +37,7 @@ const Footer = () => {
           Copyright © 2024 Viacheslav Nykyforov
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6 order-1 md:order-2">
+        <div className="flex items-center  md:gap-3 gap-4 order-1 md:order-2">
           {socialMedia.map((info) => (
             <div key={info.id}>
               <a

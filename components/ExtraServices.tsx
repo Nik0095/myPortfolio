@@ -1,11 +1,13 @@
-import {  MailPlus, Search, Settings, } from "lucide-react";
+"use client";
+ import {  MailPlus, Search, Settings, } from "lucide-react";
 import { SiGoogleads, SiGoogleanalytics, } from "react-icons/si";
 import { GlowingEffect } from "@/components/ui/GlowingEffect";
 import { PointerHighlight } from "@/components/ui/PointerHighlight";
 
 const ExtraServices = () => {
   return (
-    <section className="w-full py-20">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto   py-32"> 
+    <section className="w-full ">
       {/* Заголовок */}
       <h2 className="heading text-center">
         All customers get a <span className="text-purple">30% discount</span> on
@@ -67,8 +69,10 @@ const ExtraServices = () => {
           description="I will configure product parsing for your site and ensure constant updating of information - prices, descriptions, availability,
 so that the data always remains up-to-date without your intervention."
         />
+        
       </ul>
     </section>
+    </main>
   );
 };
 
@@ -90,9 +94,9 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
           proximity={64}
           inactiveZone={0.01}
         />
-        <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
-          <div className="relative flex flex-1 flex-col justify-between gap-3">
-            <div className="w-fit rounded-lg border border-gray-600 p-2">
+        <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-3 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D] ">
+          <div className="relative flex flex-1 flex-col justify-between gap-3 ">
+            <div className="w-fit rounded-lg border border-gray-600 p-2 ">
               {icon}
             </div>
             <div className="space-y-3">
@@ -111,3 +115,4 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
 };
 
 export default ExtraServices;
+

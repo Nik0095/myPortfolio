@@ -79,7 +79,8 @@ export const projects = [
     des: "A modern corporate platform featuring a dynamic product catalog, secure user registration, and engaging animations powered by GSAP. Built with Laravel for robust backend management and scalability.",
     img: "/terra.webp",
     iconLists: ["/php.svg", "/Laravel.svg", "/hjc.png", "/gsap.svg"],
-    link: "/terra.sitewebit.com",
+    link: "https://terra.sitewebit.com",
+    titlelinck: "terra.sitewebit.com",
   },
   {
     id: 2,
@@ -87,7 +88,8 @@ export const projects = [
     des: "WordPress site, using elementor, ACF, and custom PHP code to create a unique design and functionality.",
     img: "/katal.webp",
     iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/gsap.svg"],
-    link: "/sitewebit.com",
+    link: "https://katalizator-clean.com.ua",
+    titlelinck: "katalizator-clean.com.ua",
   },
   {
     id: 3,
@@ -95,7 +97,8 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/fatma.webp",
     iconLists: ["/wp.svg", "/elem.svg", "/acf.svg", "/js.svg"],
-    link: "/sitewebit.com",
+    link: "https://fatma.co.il",
+    titlelinck: "fatma.co.il",
   },
   {
     id: 4,
@@ -103,7 +106,8 @@ export const projects = [
     des: "WordPress site with custom pages. Custom service sign-up plugin implemented..",
     img: "/tattoo.site.webp",
     iconLists: ["/wp.svg", "/elem.svg", "/acf.svg"],
-    link: "https://tattoositewebit.com",
+    link: "https://tattoo.sitewebit.com",
+    titlelinck: "tattoo.sitewebit.com",
   },
 ];
 
@@ -226,10 +230,11 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/viacheslav-nykyforov-122bab263/",
   },
-  // {
-  //   id: 4,
-  //   img: "/phone.svg",
-  // },
+  {
+    id: 4,
+    img: "/mark_email_unread.svg",
+    link: "mailto:nikiforovslava@gmail.com",
+  },
   {
     id: 5,
     img: "/viber.svg",
@@ -243,6 +248,6 @@ export const socialMedia = [
   {
     id: 7,
     img: "/wha.svg",
-    link: "https://wa.me/+380673334455",
+    link: "https://wa.me/+380507258453",
   },
 ];

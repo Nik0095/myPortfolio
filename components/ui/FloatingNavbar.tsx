@@ -86,17 +86,19 @@ export const FloatingNav = ({
         {/* Centered buttons + burger */}
         <div className="flex items-center justify-center flex-1 space-x-3 lg:flex-none">
           {/* Login */}
-          <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+          {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
             <span>Login</span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
-          </button>
+          </button>  */}
 
           {/* Language switch */}
           <button
             onClick={toggleLang}
             className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
           >
-            <span>{lang === "en" ? "🇬🇧 EN" : "🇺🇦 УКР"}</span>
+            {/* <span>{lang === "en" ? "🇬🇧 EN" : "🇺🇦 UA"}</span> */}
+            <span>🇬🇧 EN</span>
+            
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
           </button>
         </div>
